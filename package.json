@@ -1,11 +1,20 @@
 {
   "name": "@life-without-barriers/life-without-testing",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "",
+  "repository": {
+    "type": "git",
+    "url": "life-without-barriers/life-without-testing"
+  },
+  "homepage": "https://github.com/life-without-barriers/life-without-testing",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "e-r-w",
+  "keywords":[
+    "testing",
+    "jest",
+    "react"
+  ],
   "license": "ISC",
   "dependencies": {
     "babel-core": "^6.22.1",

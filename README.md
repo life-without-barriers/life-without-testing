@@ -1,8 +1,10 @@
 # life-without-testing
 
-Standard testing utils for React apps.
+Standard testing utils for Jest/React apps.
 
 ## Usage
+
+`yarn add --dev @life-without-barriers/life-without-testing`
 
 ```js
 // package.json

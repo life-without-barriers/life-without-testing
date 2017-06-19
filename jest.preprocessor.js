@@ -1,6 +1,6 @@
 const babelJest = require('babel-jest')
 
 module.exports = babelJest.createTransformer({
-  presets: ['es2015', 'react'],
+  presets: ['flow', 'es2015', 'react'],
   plugins: ['transform-object-rest-spread']
 })

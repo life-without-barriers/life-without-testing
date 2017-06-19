@@ -12,6 +12,18 @@ Standard testing utils for Jest/React apps.
 {
   "scripts": {
     "test": "node node_modules/jest/bin/jest --config node_modules/@life-without-barriers/life-without-testing/jest.config.json"
+  },
+  "standard": {
+    "plugins": [ "flowtype" ],
+    "parser": "babel-eslint",
+    "envs": {
+      "browser": true,
+      "node": true,
+      "jest": true
+    },
+    "ignore": [
+      "flow-typed"
+    ]
   }
 }
 ```

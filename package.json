@@ -1,14 +1,13 @@
 {
   "name": "@life-without-barriers/life-without-testing",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Testing utils for Jest/React",
   "repository": {
     "type": "git",
     "url": "life-without-barriers/life-without-testing"
   },
   "homepage": "https://github.com/life-without-barriers/life-without-testing",
-  "scripts": {
-  },
+  "scripts": {},
   "keywords": [
     "testing",
     "jest",

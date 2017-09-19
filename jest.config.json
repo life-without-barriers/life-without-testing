@@ -1,10 +1,11 @@
 {
-  "setupFiles": [ "<rootDir>/node_modules/@life-without-barriers/life-without-testing/jest.setup.js" ],
+  "rootDir": "<rootDir>/../../../../",
+  "setupFiles": [ "@life-without-barriers/life-without-testing/jest.setup.js" ],
   "moduleNameMapper": {
     "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
     "\\.(css|less)$": "identity-obj-proxy"
   },
   "transform": {
-    "^.+\\.js(x?)?$": "<rootDir>/node_modules/@life-without-barriers/life-without-testing/jest.preprocessor.js"
+    "^.+\\.js(x?)?$": "@life-without-barriers/life-without-testing/jest.preprocessor.js"
   }
 }

@@ -6,6 +6,7 @@
     "\\.(css|less)$": "identity-obj-proxy"
   },
   "transform": {
-    "^.+\\.js(x?)?$": "@life-without-barriers/life-without-testing/jest.preprocessor.js"
+    "^.+\\.js(x?)?$": "@life-without-barriers/life-without-testing/jest.preprocessor.js",
+    "^.+\\.js(?:\\.flow)?$": "jest-flow-transform"
   }
 }

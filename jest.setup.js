@@ -11,5 +11,5 @@ try {
 }
 
 if (ok) {
-  console.log('Bootstrapping React tests...')
+  console.log('Bootstrapped React tests!')
 }

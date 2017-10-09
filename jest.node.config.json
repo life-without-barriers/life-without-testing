@@ -1,0 +1,8 @@
+{
+  "rootDir": "<rootDir>/../../../../",
+  "transform": {
+    "^.+\\.js(x?)?$": "@life-without-barriers/life-without-testing/jest.preprocessor.js",
+    "^.+\\.js(?:\\.flow)?$": "jest-flow-transform"
+  },
+  "testEnvironment": "node"
+}

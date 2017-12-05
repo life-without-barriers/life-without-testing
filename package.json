@@ -1,6 +1,6 @@
 {
   "name": "@life-without-barriers/life-without-testing",
-  "version": "2.1.0",
+  "version": "2.1.1-0",
   "description": "Testing utils for Jest/React",
   "repository": {
     "type": "git",

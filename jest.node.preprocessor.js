@@ -1,10 +1,6 @@
 const babelJest = require('babel-jest')
 
 module.exports = babelJest.createTransformer({
-  presets: [['env', {
-    'targets': {
-      'node': '6.10'
-    }
-  }], 'flow'],
-  plugins: ['transform-object-rest-spread']
+  presets: ['es2015', 'flow'],
+  plugins: ['transform-object-rest-spread', 'transform-async-to-generator']
 })

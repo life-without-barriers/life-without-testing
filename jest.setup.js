@@ -1,3 +1,4 @@
+require('babel-polyfill')
 let ok = true
 try {
   window.React = require('react')

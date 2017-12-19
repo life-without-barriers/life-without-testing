@@ -28,7 +28,7 @@
     "enzyme": "^3.0.0",
     "eslint-plugin-flowtype": "^2.34.0",
     "identity-obj-proxy": "^3.0.0",
-    "jest": "^21.1.0",
+    "jest": "^22.0.1",
     "jest-flow-transform": "^1.0.1",
     "react": "^15.4.2",
     "react-dom": "^15.4.2"
